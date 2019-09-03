@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe8e8e8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/travel_pic_banner" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="centerCrop" />
+    <View android:background="#ffa2a2a2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="手机号码：" />
+        <EditText android:textSize="16.0sp"  android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:hint="请输入手机号码" android:phoneNumber="true" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionNext" />
+    </LinearLayout>
+    <View android:background="#ffa2a2a2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="登录密码：" />
+        <EditText android:textSize="16.0sp"  android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:hint="请输入登录密码" android:password="true" android:layout_weight="1.0" android:inputType="numberPassword" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <View android:background="#ffa2a2a2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="16.0sp" android:textColor="#ffffffff"  android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="登录" />
+</LinearLayout>
